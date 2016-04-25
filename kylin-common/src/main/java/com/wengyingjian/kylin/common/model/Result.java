@@ -1,7 +1,7 @@
 package com.wengyingjian.kylin.common.model;
 
 /**
- * 公用返回值结构
+ * 通用返回值类型
  * 
  */
 @SuppressWarnings("serial")

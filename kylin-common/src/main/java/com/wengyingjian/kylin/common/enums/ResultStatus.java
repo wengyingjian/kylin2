@@ -5,9 +5,9 @@ package com.wengyingjian.kylin.common.enums;
  */
 public enum ResultStatus {
 
-    SUCCESS(0, "正常返回"), COMMON_ERROR(1, "一般异常");
+    SUCCESS(0, "正常返回"), COMMON_ERROR(1, "程序异常");
 
-    private ResultStatus(int code, String desc) {
+    ResultStatus(int code, String desc) {
         this.code = code;
         this.desc = desc;
     }
